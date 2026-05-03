@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/kids-defense-arcade/",
+  base: process.env.VITE_BASE ?? "/",
 });
